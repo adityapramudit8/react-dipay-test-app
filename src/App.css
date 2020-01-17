@@ -1,3 +1,53 @@
+.input-style{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+}
+.form-style{
+	position: relative;
+	margin-left: 45px;
+	margin-top: 20px;
+}
+
+.box {
+	width: 300px;
+	border-bottom: 20px solid #FFDD00;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: 20px;
+}
+.box h2{
+	color: #222222;
+	background: #FFDD00;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 700;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.box ul{
+	position: relative;
+	background: #fff;
+}
+.box ul li {
+	list-style: none;
+	padding: 10px;
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+	transition: transform 0.5s;
+}
+
+.box ul li:hover{
+	transform: scale(1.1);
+	z-index: 100;
+	background: #FFDD00;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+	color: #222222;
+	opacity: 1;
+}
+
+
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%
